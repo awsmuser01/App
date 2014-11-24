@@ -2,6 +2,7 @@ package sanker.app;
 
 
 
+import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
@@ -14,7 +15,7 @@ import android.widget.EditText;
 
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends Activity {
     EditText PhNumber;
 
     @Override
